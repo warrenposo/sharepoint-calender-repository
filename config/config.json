@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "warren-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/warren/WarrenWebPart.js",
+          "manifest": "./src/webparts/warren/WarrenWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WarrenWebPartStrings": "lib/webparts/warren/loc/{locale}.js"
+  }
+}
